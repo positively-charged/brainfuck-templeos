@@ -9,7 +9,7 @@ U8 Input() {
       255 ) ( U8 );
 }
 
-U0 Err( U8* message, U8* code, I64 ip )$ER$$ER$$ER$ {
+U0 Err( U8* message, U8* code, I64 ip ) {
    I64 i = 0;
    I64 line = 1;
    I64 column = 0;
